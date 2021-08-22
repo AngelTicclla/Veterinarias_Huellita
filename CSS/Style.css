@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header {
+    background-image: url(../Img/Fondo_Principal.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+  
+}
+
+
+.logo-empresa{
+min-width: 100px;
+max-width: 200px;
+margin-left: 60px;
+
+border-radius: 10%;
+}
+.navbar ul li a:hover {
+
+    background-color: #00ff00;
+    
+    transition: 0.4s ease-out;
+    border-radius: 30%;
+}
+a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar{
+box-shadow: 5px 5px 10px;
+border-radius: 20px;
+padding-bottom: 0px;
+background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.5));
+
+}
+header:before{
+    content: "";
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.8));
+}
+.contenedor{
+min-height: 35px;
+}
+.svg{
+    opacity: 40%;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.5));
+
+}
+
+.canvas_tamaño {
+    width: 40rem;
+}
+.nav-link {
+    color: white !important;
+    font-size: 20px;
+}
+.emergencia_h1 {
+    font-size: 40px;
+}
+.btn_iniciar {
+    background-color:#E1E711!important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+.contenedor_canvas{
+    padding: 200px;
+    margin: auto;
+}
+.canvas_tamaño {
+    width: 40rem;
+    border-top: 20px solid green;
+height: 60rem;
+}
+.logo_registro {
+
+
+    margin-left: 150px;
+}
+.btn_registro{
+    background-color: green !important;
+}
+.title_registro{
+    font-size: 25px;
+}
