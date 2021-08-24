@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+ 
+}
+
+.main--header{
+    padding: 0 20px;
+
+}
+.main--header_title{
+text-align: center;
+font-size: 2.5em;
+margin: 10px 0;
+}
+.main-nav{
+    display: none;
+}
+.main--header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-menu {
+    font-size: 1.5em;
+    border: 1px solid black;
+    display: block;
+    padding: 10px 15px;
+
+}
+.main--header_btn {
+    display: block;
+    padding: 10px 30px;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.main-header_input{
+    display: block;
+    padding: 10px;
+}
+/*---------------------------------------SLIDER*------------------------------------------------------------*-------------------------------*/
+
+/**/
+
+    a {
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .navbar{
+        box-shadow: 5px 5px 10px;
+        padding-bottom: 0px;
+        background:green ;
+        
+        }
+        .navbar_color{
+            background:green ;
+        }
+        .nav-link {
+            color: white !important;
+            font-size: 15px;
+        }
+        
+        /*Stilos productos*/
+        .contenedor-productos{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 10px;
+        }
+    .producto{
+
+        border: 2px solid black;
+padding: 20px;
+
+    }
+    .btn_editar{
+        width: 150px;
+        margin-top: 10px;
+    }
+    .car_efecto{
+margin: auto;
+height: 480px;
+
+
+    }
+    .car_efecto:hover{
+        background-color:yellow;
+    }
+   .logo-empresa{
+    min-width: 140px;
+    max-width: 40px;
+    margin-left: 60px;
+    
+    border-radius: 10%;
+    }
+    .card-body a {
+text-decoration: none;
+
+    }
+    .card-body button {
+        color: white;
+        
+            }
