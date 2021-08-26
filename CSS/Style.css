@@ -86,4 +86,33 @@ height: 60rem;
 .title_registro{
     font-size: 25px;
 }
+#bg-contactos{
+    position: relative;
+    top: -120px;
+}
+#seccion-contacto{
+    background-color:#1b2a4e;
+    min-height: 500px;
+    position: relative;
+
+}
     
+@media(max-width:768px) {
+    #bg-contacto{
+       
+        top: -110px;
+    
+    }
+}
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:white;
+    border-radius: 20px;
+    max-width: 500px;
+}
+.tituloformulario{
+    color: black;
+}
